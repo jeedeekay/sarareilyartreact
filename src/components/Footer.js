@@ -6,7 +6,7 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col>
-                        <ul>
+                        <ul className='px-0'>
                             <li>
                                 Home
                             </li>
