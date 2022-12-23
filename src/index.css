@@ -6,14 +6,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 h1, h2, h6 {
   /* font-family: 'Monoton', cursive; */
   font-family: 'Cinzel', serif;
-  color: #000; }
+  color: #000;}
 
 li {
   list-style: none; }
@@ -26,7 +25,10 @@ li {
 #reilyNavBar .nav-link {
   transition: 0.5s ease;
   background-color: white;
-  color: #6c757d; }
+  color: #6c757d;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
 
 .featuredImg {
   height: 400px;
