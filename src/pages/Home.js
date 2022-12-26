@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import logo from '../app/assets/imgs/logo-text.PNG';
 import yellowHatDog from '../app/assets/imgs/thumbnails/digital/dog-hat_crop2.jpg';
 import kristiTrees from '../app/assets/imgs/thumbnails/tattoo/kristi-trees.jpg';
-import catWindow from '../app/assets/imgs/thumbnails/acrylic/cat-window.jpg';
+import catWindow from '../app/assets/imgs/thumbnails/acrylic/luna.jpg';
 
 const Home = () => {
 
