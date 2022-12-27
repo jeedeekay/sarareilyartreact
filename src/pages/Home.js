@@ -1,9 +1,8 @@
 import { Container, Row, Col } from 'reactstrap';
 import { NavLink } from 'react-router-dom';
 import logo from '../app/assets/imgs/logo-text.PNG';
-import yellowHatDog from '../app/assets/imgs/thumbnails/digital/dog-hat_crop2.jpg';
 import kristiTrees from '../app/assets/imgs/thumbnails/tattoo/kristi-trees.jpg';
-import catWindow from '../app/assets/imgs/thumbnails/acrylic/cat-window.jpg';
+import { GALLERY } from '../app/shared/GALLERY';
 
 const Home = () => {
 
@@ -19,10 +18,10 @@ const Home = () => {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </Col>
             </Row>
-            <Row className='text-center my-5'>
+            <Row className='text-center mx-5 my-4'>
                 <Col xs md='6' lg='4'>
                     <NavLink className='nav-link' to='/'>
-                        <img className='featuredImg' src={yellowHatDog} alt='Yellow Hat Dog' />
+                        <img className='featuredImg' src={GALLERY[2].thumbnail} alt='Yellow Hat Dog' />
                     </NavLink>
                 </Col>
                 <Col xs md='6' lg='4'>
@@ -32,7 +31,7 @@ const Home = () => {
                 </Col>
                 <Col xs lg='4'>
                     <NavLink className='nav-link' to='/'>
-                        <img className='featuredImg' src={catWindow} alt='Cat Window' />
+                        <img className='featuredImg' src={GALLERY[3].thumbnail} alt='Cat Window' />
                     </NavLink>
                 </Col>
             </Row>
