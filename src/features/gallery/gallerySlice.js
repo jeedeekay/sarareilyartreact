@@ -22,3 +22,7 @@ export const selectGalleryByMedia = (media) => (state) => {
     }
     return state.gallery.galleryArray.filter((artwork) => artwork.media === media);
 }
+
+export const selectGallerybyId = (id) => (state) => {
+    return state.gallery.galleryArray.find((artwork) => artwork.id === parseInt(id));
+}

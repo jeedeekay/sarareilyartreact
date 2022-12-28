@@ -1,11 +1,14 @@
 import { Card, CardImg } from 'reactstrap';
+import { Link } from 'react-router-dom';
 
 const GalleryCard = ({ artwork }) => {
-    const { name, thumbnail } = artwork;
+    const { id, name, thumbnail } = artwork;
     return (
-        <Card>
-            <CardImg src={thumbnail} alt={name} />
-        </Card>
+        <Link to={`${id}`}>
+            <Card>
+                <CardImg src={thumbnail} alt={name} />
+            </Card>
+        </Link>
     );
 }
 

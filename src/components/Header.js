@@ -14,7 +14,7 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     return (
-        <header className='bg-white shadow'>
+        <header xs='12' className='bg-white shadow'>
             <Container >
                 <Row>
                     <Col xs='2'>

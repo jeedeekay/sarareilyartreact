@@ -12,7 +12,7 @@ const GalleryList = ({ media }) => {
         <Row>
             {gallery.map((artwork) => {
                 return (
-                    <Col md='5' lg='3' className='img-thumbnail m-1'>
+                    <Col md='5' lg='3' className='img-thumbnail m-1' key={artwork.id}>
                         <GalleryCard artwork={artwork} />
                     </Col>
                 )

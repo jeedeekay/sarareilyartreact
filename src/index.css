@@ -37,11 +37,15 @@ li {
   height: 400px;
   width: 300px;
   border-radius: 0.25em;
-  margin: 20px; }
+  }
 
 .indexLogo {
-  height: 25rem;
-  width: 25rem; }
+  /* height: 25rem;
+  width: 25rem; */
+  height: 100%;
+  width: 100%;
+  min-width: none;
+}
 
 #footerLogo {
   height: 5rem;
@@ -64,7 +68,8 @@ footer a:hover {
 }
 
 .nav-link {
-  font-size: x-large; }
+  font-size: x-large;
+  color: white; }
 
 .nav-link:hover {
   cursor: pointer;
@@ -74,9 +79,10 @@ footer a:hover {
   background-color: #6c757d; }
 
 #art-tab .nav-link {
-  color: #6c757d; }
+  color: #6c757d;
+  color: white; }
 
-#art-tab .nav-link.active {
+#art-tab .nav-link:active {
   color: white; }
 
 #navButton {
