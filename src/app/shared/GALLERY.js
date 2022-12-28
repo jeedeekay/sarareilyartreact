@@ -32,5 +32,40 @@ export const GALLERY = [
         image: luna,
         thumbnail: THUMBNAILS[3].image,
         media: 'acrylic'
+    },
+    {
+        id: 3,
+        name: 'Luna',
+        image: luna,
+        thumbnail: THUMBNAILS[3].image,
+        media: 'acrylic'
+    },
+    {
+        id: 3,
+        name: 'Luna',
+        image: luna,
+        thumbnail: THUMBNAILS[3].image,
+        media: 'acrylic'
+    },
+    {
+        id: 3,
+        name: 'Luna',
+        image: luna,
+        thumbnail: THUMBNAILS[3].image,
+        media: 'acrylic'
+    },
+    {
+        id: 3,
+        name: 'Luna',
+        image: luna,
+        thumbnail: THUMBNAILS[3].image,
+        media: 'acrylic'
+    },
+    {
+        id: 3,
+        name: 'Luna',
+        image: luna,
+        thumbnail: THUMBNAILS[3].image,
+        media: 'acrylic'
     }
 ];

@@ -18,12 +18,12 @@ const Header = () => {
             <Container >
                 <Row>
                     <Col xs='2'>
-                        <i id='navButton' role='button' className='fa fa-bars fa-lg d-sm-none p-2 mt-3' onClick={() => setMenuOpen(!menuOpen)} />
+                        <i id='navButton' role='button' className='fa fa-bars fa-lg d-md-none d-flex p-2 mt-4' onClick={() => setMenuOpen(!menuOpen)} />
                     </Col>
-                    <Col xs='8' sm='12'>
+                    <Col xs='8' sm='8' md='12'>
                         <h1 className='text-center display-2 d-none d-sm-none d-md-block my-2'>Sara Reily Art</h1>
                         <h1 className='text-center display-4 d-none d-sm-block d-md-none mt-3'>Sara Reily Art</h1>
-                        <h1 className='text-center d-sm-none mt-3'>Sara Reily Art</h1>
+                        <h1 className='text-center d-sm-none mt-4'>Sara Reily Art</h1>
                     </Col>
                 </Row>
                 <Row>

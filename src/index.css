@@ -1,8 +1,12 @@
 body {
   margin: 0;
-  font-family: 'Times New Roman', Times, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+* {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 code {
@@ -26,7 +30,6 @@ li {
   transition: 0.5s ease;
   background-color: white;
   color: #6c757d;
-  font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
 }
 
@@ -49,8 +52,23 @@ li {
   transition: 0.5s ease;
   transform: scale(0.9); }
 
+footer a {
+  color: #6c757d;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #6c757d;
+  text-decoration: underline;
+}
+
 .nav-link {
   font-size: x-large; }
+
+.nav-link:hover {
+  cursor: pointer;
+}
 
 #art-tab .active {
   background-color: #6c757d; }
