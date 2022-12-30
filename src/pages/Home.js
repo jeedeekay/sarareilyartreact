@@ -26,7 +26,7 @@ const Home = () => {
                 </Col>
                 <Col xs md='4' lg>
                     <a className='nav-link' href={kristiTrees}>
-                        <img className='featuredImg shadow' src={kristiTrees} alt='Kristi Trees' />
+                        <img className='featuredImg shadow' src={GALLERY[23].thumbnail} alt='Kristi Trees' />
                     </a>
                 </Col>
                 <Col xs>
