@@ -1,8 +1,18 @@
+import { Container, Row, Col } from 'reactstrap';
+import ContactForm from '../components/ContactForm';
+
 const Contact = () => {
     return (
-        <div>
-            Contact
-        </div>
+        <Container className='my-4'>
+            <Row>
+                <Col xs='12'>
+                    <h2>Inquiries</h2>
+                </Col>
+                <Col md='8' className='offset-md-2'>
+                    <ContactForm />
+                </Col>
+            </Row>
+        </Container>
     );
 };
 

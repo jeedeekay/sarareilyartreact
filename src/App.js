@@ -7,8 +7,8 @@ import About from './pages/About';
 import Art from './pages/Art';
 import Shop from './pages/Shop';
 import Contact from './pages/Contact';
-import './App.css';
 import GalleryDetailPage from './pages/GalleryDetailPage';
+import './App.css';
 
 function App() {
   return (

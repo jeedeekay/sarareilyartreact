@@ -1,8 +1,14 @@
+import { Container, Row, Col } from 'reactstrap';
+
+
+
 const Shop = () => {
     return (
-        <div>
-            Shop
-        </div>
+        <Container>
+            <Row>
+                <Col></Col>
+            </Row>
+        </Container>
     );
 };
 

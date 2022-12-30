@@ -9,9 +9,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-social/bootstrap-social.css';
 import 'font-awesome/css/font-awesome.css';
 import 'typeface-cinzel';
+import Client from 'shopify-buy';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
+
+const client = Client.buildClient({
+  storefrontAccessToken: '930d82a4f839f027b2f72cc35b6b4808',
+  domain: 'sara-reily-art.myshopify.com'
+});
 
 root.render(
   <React.StrictMode>
