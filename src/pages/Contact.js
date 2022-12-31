@@ -2,6 +2,9 @@ import { Container, Row, Col } from 'reactstrap';
 import ContactForm from '../components/ContactForm';
 
 const Contact = () => {
+
+    window.scrollTo(0, 0);
+
     return (
         <Container className='my-4'>
             <Row>

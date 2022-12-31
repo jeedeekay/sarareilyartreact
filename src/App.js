@@ -1,5 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import { Counter } from './features/counter/Counter';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './pages/Home';
@@ -18,7 +17,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='art' element={<Art />} />
-        <Route path='art/:artworkId' element={<GalleryDetailPage />} />
+        <Route path='art/:name' element={<GalleryDetailPage />} />
         <Route path='shop' element={<Shop />} />
         <Route path='contact' element={<Contact />} />
       </Routes>

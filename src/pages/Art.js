@@ -1,8 +1,11 @@
-import { Container, Row, Col, Nav, NavItem, NavLink, Button } from 'reactstrap';
+import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
 import GalleryList from '../features/gallery/GalleryList';
 import { useState } from 'react';
 
 const Art = () => {
+
+    window.scrollTo(0, 0);
+
     const [ media, setMedia ] = useState('all');
     return (
         <Container className='my-5'>

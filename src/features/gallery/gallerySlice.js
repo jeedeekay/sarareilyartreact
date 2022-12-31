@@ -1,8 +1,10 @@
 import { createSlice } from '@reduxjs/toolkit';
 import { GALLERY } from '../../app/shared/GALLERY';
+import { THUMBNAILS } from '../../app/shared/THUMBNAILS';
 
 const initialState = {
-    galleryArray: GALLERY
+    galleryArray: GALLERY,
+    thumbnailsArray: THUMBNAILS
 };
 
 const gallerySlice = createSlice({
@@ -23,6 +25,18 @@ export const selectGalleryByMedia = (media) => (state) => {
     return state.gallery.galleryArray.filter((artwork) => artwork.media === media);
 }
 
-export const selectGallerybyId = (id) => (state) => {
+export const selectGalleryByName = (name) => (state) => {
+    return state.gallery.galleryArray.find((artwork) => artwork.name === name);
+}
+
+export const selectGalleryById = (id) => (state) => {
     return state.gallery.galleryArray.find((artwork) => artwork.id === parseInt(id));
+}
+
+export const selectGalleryByFeatured = (state) => {
+    return state.gallery.galleryArray.filter((artwork) => artwork.featured === true);
+}
+
+export const selectThumbnailByName = (artwork) => (state) => {
+    return state.gallery.thumbnailsArray.find((thumbnail) => thumbnail.name === artwork+' Thumbnail');
 }

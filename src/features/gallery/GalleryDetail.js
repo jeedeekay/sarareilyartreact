@@ -1,7 +1,11 @@
-import { Row, Card, CardImg, CardText, CardBody, Col } from 'reactstrap';
+import { Row, Card, CardImg, Col } from 'reactstrap';
+import { useSelector } from 'react-redux';
+import { selectThumbnailByName } from './gallerySlice';
 
 const GalleryDetail = ({ artwork }) => {
-    const { name, image, thumbnail } = artwork;
+    const { name, image} = artwork;
+    const { thumbnail } = useSelector(selectThumbnailByName(name));
+    console.log('thumbnail' + thumbnail);
 
     return (
         <Row>

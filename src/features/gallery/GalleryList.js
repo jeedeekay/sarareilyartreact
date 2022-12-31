@@ -1,6 +1,5 @@
 import { useSelector } from 'react-redux';
-import { Container, Col, Row } from 'reactstrap';
-import { selectAllGallery } from './gallerySlice';
+import { Col, Row } from 'reactstrap';
 import { selectGalleryByMedia } from './gallerySlice';
 import GalleryCard from './GalleryCard';
 
@@ -12,7 +11,7 @@ const GalleryList = ({ media }) => {
         <Row>
             {gallery.map((artwork) => {
                 return (
-                    <Col md='5' lg='3' className='img-thumbnail m-1' key={artwork.id}>
+                    <Col md='5' lg='3' className='img-thumbnail m-1' key={artwork.name}>
                         <GalleryCard artwork={artwork} />
                     </Col>
                 )

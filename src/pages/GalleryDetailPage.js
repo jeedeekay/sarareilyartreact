@@ -1,12 +1,15 @@
 import { useSelector } from 'react-redux';
-import { Container, Row } from 'reactstrap';
+import { Container} from 'reactstrap';
 import { useParams } from 'react-router-dom';
-import { selectGallerybyId } from '../features/gallery/gallerySlice';
+import { selectGalleryByName } from '../features/gallery/gallerySlice';
 import GalleryDetail from '../features/gallery/GalleryDetail';
 
 const GalleryDetailPage = () => {
-    const { artworkId } = useParams();
-    const artwork = useSelector(selectGallerybyId(artworkId));
+
+    window.scrollTo(0, 0);
+
+    const { name } = useParams();
+    const artwork = useSelector(selectGalleryByName(name));
     
     return (
         <Container className='my-5'>

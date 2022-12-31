@@ -27,145 +27,121 @@ export const THUMBNAILS = [
     {
         id: 0,
         name: 'Bird Gold Thumbnail',
-        image: birdGoldThumb,
-        media: 'digital'
+        thumbnail: birdGoldThumb,
     },
     {
         id: 1,
-        name: 'Cookie Thumnail',
-        image: cookieThumb,
-        media: 'digital'
+        name: 'Cookie Thumbnail',
+        thumbnail: cookieThumb,
     },
     {
         id: 2,
         name: 'Dog Hat Thumbnail',
-        image: dogHatThumb,
-        media: 'digital'
+        thumbnail: dogHatThumb,
     },
     {
         id: 3,
-        name: 'Luna Thumnail',
-        image: lunaThumb,
-        media: 'acrylic'
+        name: 'Luna Thumbnail',
+        thumbnail: lunaThumb,
     },
     {
         id: 4,
         name: 'Compass Thumbnail',
-        image: compassThumb,
-        media: 'tattoo'
+        thumbnail: compassThumb,
     },
     {
         id: 5,
         name: 'Figs Thumbnail',
-        image: figsThumb,
-        media: 'acrylic'
+        thumbnail: figsThumb,
     },
     {
         id: 6,
         name: 'Jasper Thumbnail',
-        image: jasperThumb,
-        media: 'acrylic'
+        thumbnail: jasperThumb,
     },
     {
         id: 7,
         name: 'Blue Jay Thumbnail',
-        image: blueJayThumb,
-        media: 'digital'
+        thumbnail: blueJayThumb,
     },
     {
         id: 8,
         name: 'Dean Thumbnail',
-        image: deanThumb,
-        media: 'digital'
+        thumbnail: deanThumb,
     },
     {
         id: 9,
         name: 'Bandana Dog Thumbnail',
-        image: bandanaDogThumb,
-        media: 'digital'
+        thumbnail: bandanaDogThumb,
     },
     {
         id: 10,
         name: 'Skull Thumbnail',
-        image: skullThumb,
-        media: 'tattoo'
+        thumbnail: skullThumb,
     },
     {
         id: 11,
         name: 'Fluffy Cat Thumbnail',
-        image: fluffyCatThumb,
-        media: 'acrylic'
+        thumbnail: fluffyCatThumb,
     },
     {
         id: 12,
         name: 'Raccoon Thumbnail',
-        image: raccoonThumb,
-        media: 'acrylic'
+        thumbnail: raccoonThumb,
     },
     {
         id: 13,
         name: 'Plant Thumbnail',
-        image: plantThumb,
-        media: 'acrylic'
+        thumbnail: plantThumb,
     },
     {
         id: 14,
         name: 'Ings Thumbnail',
-        image: ingsThumb,
-        media: 'acrylic'
+        thumbnail: ingsThumb,
     },
     {
         id: 15,
         name: 'Chili Bird Thumbnail',
-        image: chiliBirdThumb,
-        media: 'acrylic',
+        thumbnail: chiliBirdThumb,
     },
     {
         id: 16,
         name: 'Trees Mountains Thumbnail',
-        image: treesMountainsThumb,
-        media: 'tattoo'
+        thumbnail: treesMountainsThumb,
     },
     {
         id: 17,
         name: 'Joplin Thumbnail',
-        image: joplinThumb,
-        media: 'acrylic'
+        thumbnail: joplinThumb,
     },
     {
         id: 18,
         name: 'Us Thumbnail',
-        image: usThumb,
-        media: 'doodle'
+        thumbnail: usThumb,
     },
     {
         id: 19,
         name: 'Echo Thumbnail',
-        image: echoThumb,
-        media: 'digital'
+        thumbnail: echoThumb,
     },
     {
         id: 20,
         name: 'Black Dog Hat Thumbnail',
-        image: blackDogHatThumb,
-        media: 'digital'
+        thumbnail: blackDogHatThumb,
     },
     {
         id: 21,
         name: 'Cat Purple Thumbnail',
-        image: catPurpleThumb,
-        media: 'digital'
+        thumbnail: catPurpleThumb,
     },
     {
         id: 22,
         name: 'Jill Thumbnail',
-        image: jillThumb,
-        media: 'digital'
+        thumbnail: jillThumb,
     },
     {
         id: 23,
         name: 'Kristi Trees Thumbnail',
-        image: kristiTreesThumbnail,
-        media: 'tattoo'
+        thumbnail: kristiTreesThumbnail,
     }
 ];

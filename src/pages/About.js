@@ -4,6 +4,9 @@ import reilyEvent from '../app/assets/imgs/thumbnails/reily-event.jpg';
 import reilyBackpack from '../app/assets/imgs/thumbnails/reily-backpack.jpg';
 
 const About = () => {
+
+    window.scrollTo(0, 0);
+
     const [ currentActiveTab, setCurrentActiveTab ] = useState('1');
 
     return (
