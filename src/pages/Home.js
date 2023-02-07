@@ -1,8 +1,10 @@
-import { Container, Row, Col } from 'reactstrap';
+import {
+    Container,
+    Row,
+    Col
+} from 'reactstrap';
 import { NavLink, Link } from 'react-router-dom';
 import logo from '../app/assets/imgs/logo-text.PNG';
-import kristiTrees from '../app/assets/imgs/thumbnails/tattoo/kristi-trees.jpg';
-import { GALLERY } from '../app/shared/GALLERY';
 import FeaturedGalleryList from '../features/gallery/FeaturedGalleryList';
 
 const Home = () => {

@@ -46,11 +46,11 @@ const Header = () => {
                                             Art
                                         </NavLink>
                                     </NavItem>
-                                    <NavItem>
+                                    {/* <NavItem>
                                         <NavLink className='nav-link' to='/shop'>
                                             Shop
                                         </NavLink>
-                                    </NavItem>
+                                    </NavItem> */}
                                     <NavItem>
                                         <NavLink className='nav-link' to='/contact'>
                                             Contact

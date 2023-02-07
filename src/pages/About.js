@@ -1,4 +1,14 @@
-import { Container, Row, Col, CardImg, Nav, NavItem, NavLink, TabContent, TabPane } from 'reactstrap';
+import {
+    Container,
+    Row,
+    Col,
+    CardImg,
+    Nav,
+    NavItem,
+    NavLink,
+    TabContent,
+    TabPane
+} from 'reactstrap';
 import { useState } from 'react';
 import reilyEvent from '../app/assets/imgs/thumbnails/reily-event.jpg';
 import reilyBackpack from '../app/assets/imgs/thumbnails/reily-backpack.jpg';

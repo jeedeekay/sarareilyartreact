@@ -1,4 +1,8 @@
-import { Container, Row, Col } from 'reactstrap';
+import {
+    Container,
+    Row,
+    Col
+} from 'reactstrap';
 
 
 

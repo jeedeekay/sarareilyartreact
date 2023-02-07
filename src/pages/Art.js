@@ -1,4 +1,11 @@
-import { Container, Row, Col, Nav, NavItem, NavLink } from 'reactstrap';
+import {
+    Container,
+    Row,
+    Col,
+    Nav,
+    NavItem,
+    NavLink
+} from 'reactstrap';
 import GalleryList from '../features/gallery/GalleryList';
 import { useState } from 'react';
 
